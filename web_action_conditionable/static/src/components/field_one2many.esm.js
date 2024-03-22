@@ -4,7 +4,7 @@ import {XMLParser} from "@web/core/utils/xml";
 import {evaluateExpr} from "@web/core/py_js/py";
 import {patch} from "@web/core/utils/patch";
 
-patch(X2ManyField.prototype, "web_action_conditionable_FieldOne2Many", {
+patch(X2ManyField.prototype, {
     get rendererProps() {
         this.updateActiveActions();
         return this._super(...arguments);
