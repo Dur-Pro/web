@@ -7,7 +7,7 @@ import {patch} from "@web/core/utils/patch";
 patch(X2ManyField.prototype, {
     get rendererProps() {
         this.updateActiveActions();
-        return this._super(...arguments);
+        return super.rendererProps;
     },
     updateActiveActions() {
         if (this.viewMode === "list" && this.activeActions.type === "one2many") {
