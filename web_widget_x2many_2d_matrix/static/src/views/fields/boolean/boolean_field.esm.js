@@ -5,9 +5,10 @@ import {BooleanField} from "@web/views/fields/boolean/boolean_field";
 
 patch(BooleanField.prototype, {
     get isReadonly() {
-        if (this.props.record.bypass_readonly) {
-            return false;
+        if (this.props.record.readonly) {
+            return this.props.record.readonly;
+        } else {
+            return false
         }
-        return this._super(...arguments);
     },
 });
