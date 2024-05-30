@@ -19,20 +19,20 @@ attributes:
 
 You can pass the following parameters:
 
-field_x_axis  
+field_x_axis
 The field that indicates the x value of a point
 
-field_y_axis  
+field_y_axis
 The field that indicates the y value of a point
 
-field_value  
+field_value
 Show this field as value
 
-show_row_totals  
+show_row_totals
 If field_value is a numeric field, it indicates if you want to calculate
 row totals. True by default
 
-show_column_totals  
+show_column_totals
 If field_value is a numeric field, it indicates if you want to calculate
 column totals. True by default
 
