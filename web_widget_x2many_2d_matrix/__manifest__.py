@@ -14,7 +14,6 @@
         "Camptocamp, "
         "CorporateHub, "
         "Onestein, "
-        "SodexisTeam, "
         "Odoo Community Association (OCA)"
     ),
     "website": "https://github.com/OCA/web",
